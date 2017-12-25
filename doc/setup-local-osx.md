@@ -58,6 +58,12 @@ and then start it with
 ### 5. Install RabbitMQ
 
     brew install rabbitmq
+    
+The path is not automatically added, so you may wish to add
+ 
+    PATH=$PATH:/usr/local/sbin 
+ 
+to your .bash_profile or .profile.
 
 and then start it with
 
